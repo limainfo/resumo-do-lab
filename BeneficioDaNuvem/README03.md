@@ -1,5 +1,5 @@
 ### Resumo da Transcrição do Vídeo referente à aula:
-### Conceito Iniciais de Cloud com Azure - Microsoft Azure - Benefícios da Nuvem: Governança e Gerenciabilidade
+### Conceito Iniciais de Cloud com Azure - Microsoft Azure - Benefícios da Nuvem: Confiabilidade, Previsibilidade e Segurança
 
 ### Resumo sobre Confiabilidade, Previsibilidade e Segurança na Nuvem
 
