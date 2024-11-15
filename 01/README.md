@@ -1,3 +1,21 @@
+### Resumo da Transcrição do Vídeo
+
+O vídeo fornece uma introdução ao **Microsoft Azure** no contexto do curso **AZ-900** de fundamentos de computação em nuvem, preparando o usuário para a certificação.
+
+- **Configuração do Portal**: Explicações sobre como criar uma conta de 30 dias e navegar pelo portal do Microsoft Azure, com dicas sobre personalização de idioma e aparência.
+  
+- **Visão Geral de Serviços**: Exploração dos serviços oferecidos, incluindo categorias como **inteligência artificial**, **machine learning**, **computação**, **banco de dados**, **redes** e **armazenamento**. A interface é idêntica para contas gratuitas e corporativas, embora alguns recursos possam estar indisponíveis para contas gratuitas.
+
+- **Recursos de Rede e Segurança**: O conceito de **jump server** (bastion) é discutido como um meio seguro de acesso a máquinas virtuais na nuvem. A importância de configurar redes e firewalls para segurança na nuvem é destacada.
+
+- **Armazenamento e Migração**: Explicações sobre como gerenciar grandes volumes de dados na nuvem, com recomendações de estratégias para a migração de dados de forma eficiente.
+
+- **Recursos em Versão Prévia**: Serviços em versão prévia são abordados, destacando que esses não têm garantia (SLA) e podem ser removidos ou alterados, o que requer cautela ao usá-los em ambientes de produção.
+
+- **Importância da Nuvem no Presente e Futuro**: A computação em nuvem é apresentada como essencial para o desenvolvimento de carreira em TI, abrangendo desde desenvolvimento até inteligência artificial e banco de dados.
+
+O vídeo termina enfatizando que a **certificação AZ-900** é uma introdução importante para quem quer se especializar na área de computação em nuvem, oferecendo uma visão completa e preparando o usuário para os próximos passos.
+
 # Transcrição do vídeo
 
 Link do vídeo: [https://www.videoindexer.ai/media/library](https://www.videoindexer.ai/media/library)
