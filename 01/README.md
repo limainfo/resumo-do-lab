@@ -1,4 +1,5 @@
-### Resumo da Transcrição do Vídeo referente à aula - Microsoft Azure - Localizando Serviços por Categoria
+### Resumo da Transcrição do Vídeo referente à aula:
+### Conceito Iniciais de Cloud com Azure - Microsoft Azure - Localizando Serviços por Categoria
 
 O vídeo fornece uma introdução ao **Microsoft Azure** no contexto do curso **AZ-900** de fundamentos de computação em nuvem, preparando o usuário para a certificação.
 
