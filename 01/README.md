@@ -1,4 +1,4 @@
-### Resumo da Transcrição do Vídeo
+### Resumo da Transcrição do Vídeo - Microsoft Azure - Localizando Serviços por Categoria
 
 O vídeo fornece uma introdução ao **Microsoft Azure** no contexto do curso **AZ-900** de fundamentos de computação em nuvem, preparando o usuário para a certificação.
 
