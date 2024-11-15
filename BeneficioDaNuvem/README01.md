@@ -1,5 +1,5 @@
-### Resumo do Vídeo sobre Benefícios da Nuvem e SLA
-
+### Resumo da Transcrição do Vídeo referente à aula:
+### Conceito Iniciais de Cloud com Azure - Microsoft Azure - Benefícios da Nuvem e SLA
 O vídeo explora os principais benefícios da computação em nuvem, com foco no curso AZ-900, abordando temas como **alta disponibilidade**, **SLA (Acordo de Nível de Serviço)**, e o gerenciamento de expectativas dos clientes em caso de indisponibilidade dos serviços.
 
 - **Benefícios da Nuvem**: A nuvem oferece vantagens como alta disponibilidade, escalabilidade, previsibilidade de custos, confiabilidade, segurança e governança. Esses benefícios são essenciais para as empresas que buscam migrar para a nuvem e melhorar seus serviços.
