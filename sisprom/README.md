@@ -2,8 +2,6 @@
 
 Após a instalação do **Ubuntu Server 24.04**, siga os passos abaixo para configurar o sistema adequadamente para seu ambiente Docker com NGINX, Java, PostgreSQL, Kafka e outros serviços.
 
----
-
 ## 1. Ajustar o APT para Buscar o Security no Mirror 10.228.74.191
 
 1. Abra o arquivo de fontes do APT:
@@ -13,11 +11,92 @@ Após a instalação do **Ubuntu Server 24.04**, siga os passos abaixo para conf
 2. Substitua todas as ocorrências de `http://security.ubuntu.com/ubuntu/` por `http://10.228.74.191/ubuntu`.
 
 ---
+Para configurar o Ubuntu Server 24.04 para utilizar o horário da zona "America/Sao_Paulo" e incluir o time server `ntp1.intraer`, siga os passos abaixo:
+
+### 1.1. Configurar o fuso horário
+
+Execute o seguinte comando para definir o fuso horário para "America/Sao_Paulo":
+
+```bash
+sudo timedatectl set-timezone America/Sao_Paulo
+```
+
+Confirme a configuração do fuso horário:
+
+```bash
+timedatectl
+```
+
+O fuso horário deverá aparecer como `America/Sao_Paulo`.
+
+---
+
+### 1.2. Configurar o servidor de tempo (NTP)
+
+O Ubuntu utiliza o `systemd-timesyncd`. Vamos configurar para usar o `ntp1.intraer`.
+
+#### 1.2.1. Verificar se o `systemd-timesyncd` está habilitado
+
+Execute o comando para verificar o status:
+
+```bash
+timedatectl show-timesync
+```
+
+Caso esteja habilitado, edite o arquivo de configuração do `systemd-timesyncd`:
+
+```bash
+sudo nano /etc/systemd/timesyncd.conf
+```
+
+Adicione ou edite a linha para incluir o servidor NTP:
+
+```ini
+[Time]
+NTP=ntp1.intraer
+FallbackNTP=ntp2.intraer
+
+```
+Instale o serviço:
+
+```bash
+sudo apt install systemd-timesyncd
+```
+
+Salve e reinicie o serviço:
+
+```bash
+sudo systemctl restart systemd-timesyncd
+```
+
+Verifique o status da sincronização:
+
+```bash
+timedatectl show-timesync
+```
+
+### 1.3. Validar a Configuração
+
+Execute o comando abaixo para garantir que o horário está correto e sincronizado:
+
+```bash
+timedatectl
+```
+
+Certifique-se de que:
+- O fuso horário está correto (`America/Sao_Paulo`).
+- A sincronização está ativada e utilizando o servidor `ntp1.intraer`.
+
+Com esses passos, seu sistema estará configurado com o horário local e sincronizado com o servidor de tempo especificado.
+
+
+---
 
 ## 2. Ajustar o Locale Correto para `pt_BR`
 
 1. Gere o locale `pt_BR.UTF-8`:
     ```bash
+    sudo -s
     locale-gen pt_BR.UTF-8
     ```
 2. Reconfigure os locales:
