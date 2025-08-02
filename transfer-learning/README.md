@@ -1,5 +1,3 @@
----
-
 # Transfer Learning — Guia Prático (baseado no ml4a-guides)
 
 Este projeto demonstra **transfer learning** para classificação de imagens em um conjunto de dados relativamente pequeno, reaproveitando uma CNN pré-treinada (ex.: VGG, ResNet, MobileNet) e **afinando** (fine-tuning) as últimas camadas para a sua tarefa. O material é baseado no notebook *Transfer Learning* do repositório **ml4a-guides**. ([GitHub][1])
