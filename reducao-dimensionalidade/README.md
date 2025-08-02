@@ -143,7 +143,3 @@ O código usa **loops Python** para fins didáticos. Em imagens grandes, pode fi
 ## Licença
 
 Livre para uso acadêmico/educacional. Ajuste conforme a necessidade do seu curso/projeto.
-
----
-
-Se quiser, posso adicionar uma seção de **testes automatizados** (com imagens pequenas) e/ou uma versão **vetorizada com numpy** mantendo a lógica didática.
