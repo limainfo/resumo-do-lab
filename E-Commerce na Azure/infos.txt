@@ -1,0 +1,37 @@
+create table produtos (
+    id int identity(1,1) primary key,
+    nome nvarchar(255),
+    descricao nvarchar(max),
+    preco decimal(18,2),
+    imagem_url nvarchar(2083)
+)
+
+
+Assinatura
+assinaturaAzure
+
+Grupo de Recursos
+dio-azure-lab-001
+
+Região
+West US 2
+
+Nome do banco de dados
+free-sql-db-3206260
+
+Servidor
+(novo) sql-server-dio-lab-001
+
+Método de autenticação
+Autenticação SQL e Microsoft Entra
+Administrador do Microsoft Entra
+limainfo@gmail.com
+Logon do administrador do servidor
+evaldo.lima
+
+Computação + armazenamento
+GeneralPurpose - Sem servidor - Série Standard (Gen5), 2 vCores, 32 GB Armazenamento, zona redundante desabilitada
+Redundância do armazenamento de backup
+Armazenamento de backup com redundância local
+Cobrança por excedente
+Desabilitado
